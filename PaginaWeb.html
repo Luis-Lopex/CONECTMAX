@@ -29,8 +29,30 @@
 
 
 
+<ul class="nav nav-tabs" id="myTab" role="tablist">
+  <li class="nav-item" role="presentation">
+    <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Home</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Profile</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="producto-tab" data-bs-toggle="tab" data-bs-target="#producto-tab-pane" type="button" role="tab" aria-controls="producto-tab-pane" aria-selected="false">Productos/Servicios</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="acerca-tab" data-bs-toggle="tab" data-bs-target="#acerca-tab-pane" type="button" role="tab" aria-controls="acerca-tab-pane" aria-selected="false" >Acerca de CONECTMAX</button>
+  </li>
 
-<div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false" >Contacto</button>
+  </li>
+
+</ul>
+<div class="tab-content" id="myTabContent">
+  <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+  	<br><br>
+
+  	<div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -69,9 +91,113 @@
 </div>
 
 
+<br><br>
 
 
-<div class="accordion" id="accordionExample">
+
+<h5 align="center">
+	Quieres que tu negocio cuente con un software adecuado que haga de tu trabajo mas facil de manejar
+</h5>
+<br>
+<form class="row gx-3 gy-2 align-items-center">
+  <div class="col-sm-3">
+    <label class="visually-hidden" for="specificSizeInputName">NombreNegocio</label>
+    <input type="text" class="form-control" id="specificSizeInputName" placeholder="Nombre del Negocio">
+  </div>
+  <div class="col-sm-3">
+    <label class="visually-hidden" for="specificSizeInputName">TelNegocio</label>
+    <input type="phone" class="form-control" id="specificSizeInputName" placeholder="Telefono del Negocio">
+  </div>
+  <div class="col-sm-3">
+    <label class="visually-hidden" for="specificSizeInputGroupUsername">Email</label>
+    <div class="input-group">
+      <div class="input-group-text">@</div>
+      <input type="text" class="form-control" id="specificSizeInputGroupUsername" placeholder="Email del Negocio">
+    </div>
+  </div>
+  <div class="col-sm-3">
+    <label class="visually-hidden" for="specificSizeInputName">Nombre</label>
+    <input type="text" class="form-control" id="specificSizeInputName" placeholder="Tu Nombre">
+  </div><br>
+  
+    <button type="submit" class="btn btn-danger">Enviar</button>
+  
+</form>
+
+<br><br>
+
+<h4 align="center">
+	CONECTMAX: Lider en Colombia en programas de Software <br> que ayudan a que tu trabajo sea mas facil de Realizar.
+</h4>
+
+<br><br><br>
+
+<h5 align="center">
+	Accede y Disfruta de diferentes contenidos muy llamativos
+</h5>
+
+
+<table border="1" align="center">
+	<tr>
+		<td valign="top">
+			<div class="card" style="width: 18rem;">
+  <img src="..." class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Cupo Classic</h5>
+    <p class="card-text"><b>Desde $15.000 COP/Mes</b>  <br> Encuentra todo tipo de contenido que ayudara a que tu negocio evolucione, nuestros programadores estaran publicando diariamente diferente contenido.</p>
+    <a href="#" class="btn btn-primary">Adquirir</a>
+  </div>
+</div>
+		</td>
+		<td valign="top">
+			<div class="card" style="width: 18rem;">
+  <img src="..." class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Cupo Gold</h5>
+    <p class="card-text"><b>Desde $25.000 COP/Mes</b>  <br> Encuentra todo tipo de contenido que ayudara a que tu negocio evolucione, nuestros programadores estaran publicando diariamente diferente contenido, ademas contaras con ayuda extra de diferentes plataformas que se te recomendara para adquirir mas conocimiento.</p>
+    <a href="#" class="btn btn-primary">Adquirir</a>
+  </div>
+</div>
+		</td>
+		<td valign="top">
+			<div class="card" style="width: 18rem;">
+  <img src="..." class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Cupo Platinum</h5>
+    <p class="card-text"><b>Desde $40.000 COP/Mes</b> <br> Encuentra todo tipo de contenido que ayudara a que tu negocio evolucione, nuestros programadores estaran publicando diariamente diferente contenido, ademas cuenta con ayuda de nuestros profesionales en las diferentes dificultades o interrogantes que se te presenten.</p>
+    <a href="#" class="btn btn-primary">Adquirir</a>
+  </div>
+</div>
+		</td>
+	</tr>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+  <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+  	profile
+  </div>
+  <div class="tab-pane fade" id="producto-tab-pane" role="tabpanel" aria-labelledby="producto-tab" tabindex="0">
+  	producto
+  </div>
+  <div class="tab-pane fade" id="acerca-tab-pane" role="tabpanel" aria-labelledby="acerca-tab" tabindex="0">
+  	acerca de
+
+
+  	<div class="accordion" id="accordionExample">
   <div class="accordion-item">
     <h2 class="accordion-header" id="headingOne">
       <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -113,6 +239,24 @@
     </div>
   </div>
 </div>
+
+
+
+
+
+
+
+
+  </div>
+  <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">
+  	contacto
+  </div>
+</div>
+
+
+
+
+
 
 
 </body>
